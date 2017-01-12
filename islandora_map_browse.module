@@ -73,8 +73,8 @@ function islandora_map_browse_css_alter(&$css) {
         'misc/ui/jquery.ui.core.css' => TRUE,
         'misc/ui/jquery.ui.theme.css' => TRUE,
         'sites/all/libraries/leaflet/leaflet.css' => TRUE,
-        'sites/all/libraries/Leaflet.markercluster-leaflet-0.7/dist/MarkerCluster.css' => TRUE,
-        'sites/all/libraries/Leaflet.markercluster-leaflet-0.7/dist/MarkerCluster.Default.css' => TRUE,
+        'sites/all/libraries/Leaflet.markercluster-1.0.0/dist/MarkerCluster.css' => TRUE,
+        'sites/all/libraries/Leaflet.markercluster-1.0.0/dist/MarkerCluster.Default.css' => TRUE,
         'modules/shortcut/shortcut.css' => TRUE,
         'modules/toolbar/toolbar.css' => TRUE,
       );

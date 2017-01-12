@@ -54,7 +54,7 @@ drupal_add_js('https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key='. $ke
       watchdog("islandora_map_view", "Leaflet Library not found");
     }
 
-    $cluster_path = libraries_get_path('Leaflet.markercluster-leaflet-0.7');
+    $cluster_path = libraries_get_path('Leaflet.markercluster-1.0.0');
     if ($cluster_path != FALSE) {
       // Add clustering.
       drupal_add_css($cluster_path . '/dist/MarkerCluster.css', 'module', 'all', 'false');
@@ -316,7 +316,7 @@ drupal_add_js('https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key='. $ke
       watchdog("islandora_map_view", "Leaflet Library not found");
     }
 
-    $cluster_path = libraries_get_path('Leaflet.markercluster-leaflet-0.7');
+    $cluster_path = libraries_get_path('Leaflet.markercluster-1.0.0');
     if ($cluster_path != FALSE) {
       // Add clustering.
       drupal_add_css($cluster_path . '/dist/MarkerCluster.css', 'module', 'all', 'false');
